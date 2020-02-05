@@ -1,0 +1,2 @@
+include ':app', 'opencvmodule'
+rootProject.name='My Application'
