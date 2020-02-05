@@ -1,25 +1,19 @@
 package com.example.myapplication;
 
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
-import android.media.Image;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 
-import com.example.myapplication.R;
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
+
 import com.otaliastudios.cameraview.CameraListener;
 import com.otaliastudios.cameraview.CameraView;
 import com.otaliastudios.cameraview.PictureResult;
 import com.otaliastudios.cameraview.controls.Mode;
-import com.otaliastudios.cameraview.filter.Filters;
-import com.otaliastudios.cameraview.frame.Frame;
-import com.otaliastudios.cameraview.frame.FrameProcessor;
-
 import org.opencv.android.BaseLoaderCallback;
 import org.opencv.android.LoaderCallbackInterface;
 import org.opencv.android.OpenCVLoader;
@@ -219,7 +213,6 @@ public class MainActivity extends AppCompatActivity {
 
         Imgproc.filter2D(src, src, -1, KERNEL);
         Utils.matToBitmap(src, bmp);*/
-
         Mat squa = new Mat(500, 500, CvType.CV_8UC1);
         squa.setTo(new Scalar(0));
         List<MatOfPoint> squares = new ArrayList<>();

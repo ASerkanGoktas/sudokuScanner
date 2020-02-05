@@ -6,8 +6,8 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="21"
-8-->/Users/aserkangoktas/Desktop/SudokuScanner/opencvmodule/java/AndroidManifest.xml
+8-->/Users/aserkangoktas/Desktop/sudokuScanner/opencvmodule/java/AndroidManifest.xml
 9        android:targetSdkVersion="26" />
-9-->/Users/aserkangoktas/Desktop/SudokuScanner/opencvmodule/java/AndroidManifest.xml
+9-->/Users/aserkangoktas/Desktop/sudokuScanner/opencvmodule/java/AndroidManifest.xml
 10
 11</manifest>
